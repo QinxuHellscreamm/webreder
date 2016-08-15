@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+<div id="root" class="container">
+	<div class="m-artical-action">
+		<div class="artical-action-mid" id="action_mid"></div>
+	</div>
+	<div id="top_nav" class="top-nav" style="display:none">
+		<div class="icon-back"></div>
+		<div class="nav-title">返回书架</div>
+	</div>
+	<div id="fotion_chapter_title"></div>
+	<div id="format_container" class="m-read-content">
+		<h4 id="">若心成文</h4>
+		<p>
+			若心成文，每一次隔着荧屏的促谈，都是云轩上一片飘去的信笺。
+			似咫尺却天边，不谋娇面，不闻莺声，只看那字字珠玉的篇章，
+			如风，如雪，飘飘洒洒落在德昌的冬天。定是那空寂旷谷里山涧
+			流出的一股清纯，那么脱俗，那么干净，随意地浅唱低吟，释放
+			着月光下如莲的空灵，轻语芳华，连花瓣也明如琉璃，连水露也
+			莹成琥珀。
+		</p>
+		<p>
+			愚人不知，伊与那苍茫的大凉山中，是怎样不沾人间烟火而清
+			修稚心的。莫不是，那山青水秀只容得下一帘清幽连风都带着
+			韵味，以至于伊的文字若馨若茗？莫不是，伊静默守望着平淡
+			生活连日子都洋溢着幸福，以至于伊的诗歌淡定恬静？莫不是，
+			那冰川上的雪莲凝结着晶莹剔透的伊心，连忧伤也柔成丁香的
+			淡雅，以至于伊的纯真可昭明月？
+		</p>
+		<p>
+			惜一次文字的邂逅，惜一场叶落缤纷的花事，那是现实生活不
+			能期冀的美好。一路艰辛的文字苦旅终因伊的陪伴而执意匍匐，
+			不关名利不关风月，只是让寂寞的河有了草色点缀的青绿，只
+			是让一岸的蒹葭守望逆流而上的兰舟，还有那不着边际的梦境
+			织就成缥缈的紫萝。
+		</p>
+
+	</div>
+	<div class="m-button-bar">
+		<ul class="u-tab">
+			<li id="prev_button">上一章</li>
+			<li id="next_button">下一章</li>
+		</ul>
+	</div>
+
+	<div>
+		<div class="bottom-nav" id="bottom_nav" style="display:none">
+			<div id="mulu">
+				<div></div>
+				<span>目录</span>
+			</div>
+			<div id="font_set_button">
+				<div class="font-icon"></div>
+				<span>字体</span>
+			</div>
+			<div id="neight">
+				<div></div>
+				<span>白天</span>
+			</div>
+			<div id="neight1" style="display:none">
+				<div></div>
+				<span>夜晚</span>
+			</div>
+		</div>
+	</div>
+	<div class="nav-pannel-bk" style="display:none"></div>
+	<div class="nav-pannel" id="font_container" style="display:none">
+		<div class="child-mod">
+			<span>字号</span>
+			<button id="large-font" class="font-size-button">大</button>
+			<button id="small-font" class="font-size-button">小</button>
+		</div>
+		<div class="child-mod">
+			<span>背景</span>
+			<div class="bk-container" data-color='#f7eee5'>
+				<div class="bk-container-current"></div>
+			</div>
+			<div class="bk-container"  data-color='#e9dfc7'>
+				<div class="bk-container-current"></div>
+			</div>
+			<div class="bk-container"  data-color='#a4a4a4'>
+				<div class="bk-container-current"></div>
+			</div>
+			<div class="bk-container"  data-color='#cdefce'>
+				<div class="bk-container-current"></div>
+			</div>
+			<div class="bk-container"  data-color='#283548'>
+				<div class="bk-container-current"></div>
+			</div>
+			<div class="bk-container"  data-color='#0f1410'>
+				<div class="bk-container-current"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="lib/zepto.min.js"></script>
+<script>
+	window.jQuery = $;
+</script>
+<script src="js/jquery.base64.js"></script>
+<script src="js/jquery.jsonp.js"></script>
+
+<script src='js/index.js'></script>
+
+<script>
+	var a=parseInt('2',10)
+
+</script>
+</body>
+</html>
